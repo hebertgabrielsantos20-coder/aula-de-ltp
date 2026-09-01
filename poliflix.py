@@ -6,6 +6,7 @@ class Filmes:
         self.ano = ano
         self.classificacaoEtaria = classificacaoEtaria
 
+
     def Assistir(self):
         print(f"Assistindo o filme '{self.titulo}'.")
 
@@ -20,8 +21,7 @@ class Series:
         self.titulo = titulo
         self.temporada = temporada
         self.episodio = episodio
-        self.ano = ano
-        self.classificacaoEtaria = classificacaoEtaria
+        self.ano = ano        self.classificacaoEtaria = classificacaoEtaria
 
     def Assistir(self):
             print(f"Assistindo a serie '{self.titulo}'.")
@@ -62,3 +62,7 @@ filme3 = Filmes("As Branquelas", "Keenen Ivory Wayans", 104, 2004, 14)
 filme3.Assistir()
 filme3.Avaliar()
 filme3.ver_info_filme()
+serie1 = Series("Atlanta", 4, 5, 2022, 16)
+serie1.Assistir()
+serie1.Avaliar()
+serie1.ver_info_serie()
