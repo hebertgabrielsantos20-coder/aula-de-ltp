@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leia-se: Leia, imagine, se descubra</title>
+</head>
+<body>
+    <h1>Leia-se</h1>
+    <h2>Leia, imagine, se descubra.</h2>
+
+    <form>
+        <label for="nome">Digite seu nome:</label>
+            <input type="text" name="nome" id="nome" required>
+        <br>
+        <br>
+        
+        <label for="email">Digite seu email</label>
+            <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+
+        <label for="password">Digite sua senha</label>
+            <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+
+        <label for="date">Data de nascimento</label>
+            <input type="date" name="date" id="date" required>
+        <br>
+        <br>
+
+        Forma de contato:
+        <input type="checkbox" name="contato" id="contato-email" value="email" checked/>
+            <label for="contato-email">Emai</label>
+
+        <input type="checkbox" name="contato" id="contato-cel" value="cel"/>
+            <label for="contato-cel">Celular</label>
+        <br>
+        <br>
+        <label for="msg">Escreva sua mensagem:</label>
+            <textarea name="msg" id="msg"></textarea>
+        <br>
+        <br>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AM">Amazonas</option>
+            <option value="AL">Alagoas</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Cadastrar✉️</button>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
